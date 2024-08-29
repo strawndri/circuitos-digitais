@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>LAYOUT</shapeType>
+    </entry>
+    <entry>
+      <string>backgroundColor</string>
+      <awt-color>
+        <red>255</red>
+        <green>51</green>
+        <blue>51</blue>
+        <alpha>255</alpha>
+      </awt-color>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Entrada que representa um dos elementos da operação lógico-aritmética.</string>
+        </entry>
+        <entry>
+          <string>addValueToGraph</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Entrada que define a operação a ser realizada.</string>
+        </entry>
+        <entry>
+          <string>addValueToGraph</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>F</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Entrada que representa um dos elementos da operação lógico-aritmética.</string>
+        </entry>
+        <entry>
+          <string>addValueToGraph</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Resultado da operação.</string>
+        </entry>
+        <entry>
+          <string>addValueToGraph</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>R</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ula.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>SIMPLE</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Indica se a saída R é igual a zero (1) ou não (0)</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>S_0 (ZERO)</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Indica se houve overflow na operação aritmética (1) ou não (0).</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>S_1 (OVFL)</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Indica se a saída R é negativa  (1) ou não (0).</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>S_2 (NEG)</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="340"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="520" y="240"/>
+      <p2 x="660" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="320"/>
+      <p2 x="660" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="320"/>
+      <p2 x="700" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="320"/>
+      <p2 x="820" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="260"/>
+      <p2 x="820" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="340"/>
+      <p2 x="820" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="280"/>
+      <p2 x="700" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="280"/>
+      <p2 x="780" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="360"/>
+      <p2 x="680" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="300"/>
+      <p2 x="700" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="300"/>
+      <p2 x="820" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="300"/>
+      <p2 x="660" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="240"/>
+      <p2 x="660" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="320"/>
+      <p2 x="680" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="260"/>
+      <p2 x="780" y="280"/>
+    </wire>
+  </wires>
+  <measurementOrdering>
+    <string>A</string>
+    <string>B</string>
+    <string>F</string>
+    <string>R</string>
+    <string>S</string>
+  </measurementOrdering>
+</circuit>
