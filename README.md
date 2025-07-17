@@ -1,6 +1,6 @@
 # ⚡ | Trabalhos de Circuitos Digitais
 
-![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-f5b5ca.svg)
+![Projeto](https://img.shields.io/badge/Projeto-Universidade-85d9f2.svg)
 ![Status](https://img.shields.io/badge/Status-Concluído-abf285.svg)
 
 ## Índice
@@ -29,10 +29,6 @@ Assim como no trabalho anterior, aqui também foi necessário construir estrutur
 
 - [Digital](https://github.com/hneemann/Digital): software de simulação de circuitos lógicos;
 - [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution): software de simulação de circuitos lógicos.
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT). Consulte o arquivo `LICENSE` para obter mais informações sobre os termos de licenciamento.
 
 ---
 
