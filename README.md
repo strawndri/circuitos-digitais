@@ -1,4 +1,4 @@
-# ⚡ | Trabalhos de Circuitos Digitais
+# ⚡ | Circuitos Digitais
 
 ![Projeto](https://img.shields.io/badge/Projeto-Universidade-85d9f2.svg)
 ![Status](https://img.shields.io/badge/Status-Concluído-abf285.svg)
@@ -7,7 +7,6 @@
 
 - [Sobre o repositório](#sobre-o-repositório)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Licença](#licença)
 
 ## Sobre o repositório
 
